@@ -3,7 +3,7 @@ sample () {
 "Hello World"
 }
 #Main program -- calling a function is called Main program
-sample1
+sample
 
 #Declared variable in main program can be accessed in function and it's vice versa.
 #Declared variable in main program can be overwritten in function and it's vice versa.
