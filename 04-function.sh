@@ -17,3 +17,10 @@ echo "Addition of $1 and $2 is $(($1+$2))"
 }
 
 sample_sum 100 200
+
+sample2 () {
+  echo Hello1
+  return
+  echo Hi
+}
+sample2
