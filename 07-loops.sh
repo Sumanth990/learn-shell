@@ -40,8 +40,8 @@ i=10
 while [ "$i" -gt 0 ]; do
  echo Hello world
  i=$(($i-1))
- echo Hello Universe
  break
+ echo Hello Universe
 done
 
 # Continue example
