@@ -26,19 +26,19 @@
 #Expressions
 #1.Strings checks
 
-# [ string (operator) string ]
-# operators:
-#  =, == -> check if both the strings are same.
-#  != -> check if both the strings are not same.
+#[ string (operator) string ]
+#operators:
+#=, == -> check if both the strings are same.
+#!= -> check if both the strings are not same.
 
-# Ex: [ a = x ] [ a != x], [ $x == abc ]
+#Ex: [ a = x ] [ a != x], [ $x == abc ]
 
-# 2. Number checks
+#2. Number checks
 
-# 3. File checks
+#3. File checks
 
 
 input=$1
-if [ $"input" = devops ]; then
+if [ "$input" = devops ]; then
  echo Welcome to Devops training
 fi
