@@ -1,19 +1,19 @@
 #Simple If
 
-# If [ expression1 ]; then
-# commands
-# fi
+#If [ expression1 ]; then
+#commands
+#fi
 
-# If Else
+#If Else
 
-# If [ expression2 ]; then
-# commands
-# else
-# commands
-# fi
+#If [ expression2 ]; then
+#commands
+#else
+#commands
+#fi
 
 
-# Else If
+#Else If
 
 #If [ expression1 ]; then
 # commands1
