@@ -35,6 +35,7 @@ done
 # continue - Skipping the remaining commands in loop (command1 ; comm2 ; continue; comm3 ; comm4) and starts the next iteration.
 
 #Break example
+echo "###Break example"
 i=10
 while [ "$i" -gt 0 ]; do
  echo Hello world
@@ -45,6 +46,7 @@ done
 
 # Continue example
 
+echo "###Continue example"
 i=10
 while [ "$i" -gt 0 ]; do
  echo Hello World
