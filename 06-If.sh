@@ -39,6 +39,6 @@
 
 
 input=$1
-if [ input = devops ]; then
+if [ $input = devops ]; then
  echo Welcome to Devops training
 fi
