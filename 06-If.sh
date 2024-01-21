@@ -42,3 +42,7 @@ input=$1
 if [ "$input" = devops ]; then
  echo Welcome to Devops training
 fi
+
+if [ -z "$1" ]; then
+  echo Input is empty
+  fi
