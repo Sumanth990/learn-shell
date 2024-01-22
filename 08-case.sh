@@ -9,4 +9,7 @@ case $course in
  Devops)
    echo welcome to DevOps training
    ;;
+ *)
+   echo Unknow training
+   ;;
 esac
