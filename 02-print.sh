@@ -12,11 +12,11 @@ echo hello world
 
 #syntax:
 echo -e "\e[30mHello world\e[0m"
-echo -e "/e[31mHello world/e[0m"
-echo -e '/e[31mHello world/e[0m'
-echo -e "/e[32mHello world/e[0m"
-echo -e "/e[33mHello world/e[0m"
-echo -e "/e[34mHello world/e[0m"
-echo -e "/e[35mHello world/e[0m"
-echo -e "/e[36mHello world/e[0m"
-echo -e "/e[37mHello world/e[0m"
+echo -e "\e[31mHello world\e[0m"
+echo -e '\e[31mHello world\e[0m'
+echo -e "\e[32mHello world\e[0m"
+echo -e "\e[33mHello world\e[0m"
+echo -e "\e[34mHello world\e[0m"
+echo -e "\e[35mHello world\e[0m"
+echo -e "\e[36mHello world\e[0m"
+echo -e "\e[37mHello world\e[0m"
