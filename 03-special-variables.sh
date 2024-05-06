@@ -1,3 +1,4 @@
 #Special variables start from 0...n, *, #
 #For accessing variable prefix $
-echo $0
+echo print script name - $0
+echo $3
