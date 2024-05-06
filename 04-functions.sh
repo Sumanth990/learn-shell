@@ -9,7 +9,7 @@ sample() {
 sample #calling a function is called main program
 
 sample_sum() {
-  echo "Addition of $a and $b is $a+b"
+  echo "Addition of $a and $b is $a+$b"
 }
 
 sample_sum $a $b #main
