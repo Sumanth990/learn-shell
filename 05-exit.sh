@@ -8,6 +8,7 @@ sample2() {
 sample2
 
 echo Exit
+
 sample3() {
   echo "Hii"
   exit
