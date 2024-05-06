@@ -17,7 +17,6 @@ sample3() {
 sample3
 
 #return with 126
-
 sample4() {
   echo hiii
   return 127
