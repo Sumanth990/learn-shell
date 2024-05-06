@@ -17,10 +17,10 @@ sample3() {
 sample3
 
 #return with 126
-sample4() {
+sample3() {
   echo hiii
   return 127
   echo he
 }
 
-sample4
+sample3
