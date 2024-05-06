@@ -3,4 +3,5 @@
 echo print script name - $0
 echo First argument - $1
 echo Second argument - $2
-echo $*
+echo List all argument - $*
+echo No. of argument - $#
