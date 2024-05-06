@@ -4,4 +4,4 @@ sample() {
   echo "Hello world"
 }
 
-sample #calling a function is called main program
+#sample #calling a function is called main program
