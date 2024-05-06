@@ -1,6 +1,6 @@
 #Function
 a=10
-b=-20
+b=$20
 
 sample() {
   echo "Hello world"
