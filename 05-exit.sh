@@ -10,7 +10,7 @@ sample2
 #Exit
 
 sample3() {
-  echo "Hi"
+  echo "Hii"
   exit
   echo hello
 }
