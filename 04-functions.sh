@@ -5,4 +5,4 @@ sample() {
   a=10
 }
 
-sample #calling a function is called main program
+sample $a #calling a function is called main program
