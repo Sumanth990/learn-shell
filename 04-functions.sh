@@ -1,4 +1,6 @@
 #Function
+a=10
+b=20
 
 sample() {
   echo "Hello world"
@@ -7,7 +9,7 @@ sample() {
 sample #calling a function is called main program
 
 sample_sum() {
-  echo "Addition of $1 and $2 is $(($1+$2))"
+  echo "Addition of a and b is a+b"
 }
 
-sample_sum $1 $2
+sample_sum a b #main
