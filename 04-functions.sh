@@ -1,7 +1,7 @@
 #Function
 
 sample() {
-  echo Hello world
+  echo "Hello world"
 }
 
 sample #calling a function is called main program
