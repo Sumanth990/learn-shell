@@ -7,7 +7,7 @@ sample2() {
 
 sample2
 
-#Exit
+echo Exit
 sample3() {
   echo "Hii"
   exit
@@ -16,7 +16,7 @@ sample3() {
 
 sample3
 
-#return with 126
+echo return with 126
 sample3() {
   echo hiii
   return 127
