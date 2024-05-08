@@ -3,10 +3,10 @@
 
 a=$1
 if [ -z "$a" ]; then
-  echo -i "Enter an input"
+  echo "Enter an input"
 fi
 
 
-if [ "$a" == devops ]; then
+if [  "$a" == devops ] --nocasematch; then
   echo "Welcome to devops"
 fi
