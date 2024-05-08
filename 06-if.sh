@@ -3,6 +3,6 @@
 
 a=$1
 
-if [ $a == b ]; then
+if [ "$a" == devops ]; then
   echo Welcome to devops
 fi
