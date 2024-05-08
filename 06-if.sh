@@ -1,6 +1,13 @@
-if [[ -z "$1" || -z "$2" ]]; then
-   echo input is empty
-elif [ "$1" == "$2" ];
+if [ -z "$1" ]; then
+   echo input a is empty
+   exit 1
+fi
+if [ -z "$2" ]; then
+   echo input b is empty
+   exit 1
+fi
+
+if [ "$1" == "$2" ];
 then
    echo "a is equal to b"
 elif [ "$1" -gt "$2" ];
