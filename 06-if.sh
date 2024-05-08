@@ -7,6 +7,6 @@ if [ -z "$a" ]; then
 fi
 
 
-if [  "$a" == devops ] --nocasematch; then
+if [[ "$a" == devops ]] ; then
   echo "Welcome to devops"
 fi
