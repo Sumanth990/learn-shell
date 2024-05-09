@@ -29,11 +29,11 @@ while [ "$i" -gt 0 ]; do
   echo "Hello"
 done
 
-echo continue example
-i=10
-while [ "$i" -gt 0 ]; do
-  echo "Hi, HRU"
-  i=$(("$i"-1))
-  continue
-  echo "hellllllllo"
-done
+#echo continue example
+#i=10
+#while [ "$i" -gt 0 ]; do
+#  echo "Hi, HRU"
+#  i=$(("$i"-1))
+#  continue
+#  echo "hellllllllo"
+#done
