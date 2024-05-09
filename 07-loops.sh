@@ -4,11 +4,11 @@
 #  commands
 #done
 
-#i=10
-#while [ "$i" -gt 0 ]; do
-#  echo "Hello world"
-#  i=$(("$i"-1))
-#done
+i=10
+while [ "$i" -gt 0 ]; do
+  echo "Hello world"
+  i=$(("$i"-1))
+done
 
 #For loop
 #syntax
@@ -16,6 +16,6 @@
 #  commands
 #done
 
-for course in Devops AWS AZURE GCP; do
-  echo Welcome to course - ${course}dsa
-done
+#for course in Devops AWS AZURE GCP; do
+#  echo Welcome to course - ${course}
+#done
