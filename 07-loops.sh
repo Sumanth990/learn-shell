@@ -20,7 +20,7 @@
 #  echo Welcome to course - ${course}
 #done
 
-echo ###Break example
+echo "###Break example"
 i=10
 while [ "$i" -gt 0 ]; do
   echo "Hello world"
