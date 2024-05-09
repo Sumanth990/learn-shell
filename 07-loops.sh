@@ -20,20 +20,20 @@
 #  echo Welcome to course - ${course}
 #done
 
-echo "###Break example"
-i=10
-while [ "$i" -gt 0 ]; do
-  echo "Hello world"
-  i=$(("$i"-1))
-  break
-  echo "Hello"
-done
-
-#echo continue example
+#echo "###Break example"
 #i=10
 #while [ "$i" -gt 0 ]; do
-#  echo "Hi, HRU"
+#  echo "Hello world"
 #  i=$(("$i"-1))
-#  continue
-#  echo "hellllllllo"
+#  break
+#  echo "Hello"
 #done
+
+echo "###continue example"
+i=10
+while [ "$i" -gt 0 ]; do
+  echo "Hi, HRU"
+  i=$(("$i"-1))
+  continue
+  echo "hellllllllo"
+done
