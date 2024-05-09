@@ -17,5 +17,5 @@
 #done
 
 for course in Devops AWS AZURE GCP; do
-  echo Welcome to course - $coursedsa
+  echo Welcome to course - ${course}dsa
 done
