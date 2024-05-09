@@ -6,6 +6,16 @@
 
 i=10
 while [ "$i" -gt 0 ]; do
-  echo Hello world
-  z=$(("$i"-1))
+  echo "Hello world"
+  i=$(("$i"-1))
+done
+
+#For loop
+#syntax
+#for somevar in values(value1. value2); do
+#  commands
+#done
+
+for course in Devops AWS AZURE GCP; do
+  echo Welcome to course - $course
 done
