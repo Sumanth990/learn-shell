@@ -44,7 +44,7 @@ case $course in
  AWS)
    echo welcome to AWS training
    ;;
- Devops)
+ Devops)  
    echo welcome to DevOps training
    ;;
 *)
