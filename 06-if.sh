@@ -9,6 +9,6 @@ if [ -z "$1" ]; then
   exit # default is 0
 fi
 
-if [ "$input" == devops ] ; then
+if [ $input == devops ] ; then
   echo "Welcome to Devops"
 fi
