@@ -31,11 +31,11 @@
 #  echo "HEHEHEHEHEHE"
 #done
 
-echo case
+echo Case Example
 i=$1
 case $i in
 AWS)
-  echo Welcome to $i course
+  echo Welcome to AWS course
   ;;
 DevOps)
   echo Welcome to DevOps course
