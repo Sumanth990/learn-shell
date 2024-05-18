@@ -1,11 +1,23 @@
-##While loop
-#i=5
-#while [ $i -gt 0 ]; do
-#  echo Hi world!!!
-#  i=$(($i-1))
-#done
+echo while loop
+i=5
+while [ $i -gt 0 ]; do
+  echo Hi world!!!
+  i=$(($i-1))
+done
 
-#For loop
+echo For loop
 for course in AWS ANSIBLE LINUX "SHELL SCRIPTING" K8S; do
-  echo Welcome to course - $course
+  echo Welcome to course - ${course}
+done
+
+echo Two loop control commands
+echo Break - Stops the loop.
+echo continue - Will skip the next commands in the loop.
+
+i=5
+while [ $i -gt 0 ]; do
+  echo "Hello!!!!"
+  i=$(("$i"-1))
+  break
+  echo "HEHEHEHEHEHE"
 done
