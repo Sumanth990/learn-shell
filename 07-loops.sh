@@ -35,7 +35,7 @@ echo case
 i=$1
 case $i in
 AWS)
-  echo Welcome to AWS course
+  echo Welcome to $i course
   ;;
 DevOps)
   echo Welcome to DevOps course
