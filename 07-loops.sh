@@ -38,7 +38,7 @@ AWS)
   echo Welcome to $i course
   ;;
 DevOps)
-  echo Welcome to DevOps course
+  echo Welcome to $i course
   ;;
 *)
   echo Course details not available
