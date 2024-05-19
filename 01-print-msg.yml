@@ -1,0 +1,14 @@
+- name: Print Hello
+  hosts: all
+  roles:
+    - name: Print Hello
+      ansible.builtin.debug:
+        msg:Hello
+
+- name: Print Bye
+  hosts: all
+  roles:
+    - name: Print Bye
+      ansible.builtin.debug:
+        msg:Bye
+
