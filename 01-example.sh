@@ -1,5 +1,5 @@
-echo list files -e
+echo -e list files
 ls
 
-echo curl google.com -e
+echo -e curl google.com
 curl google.com
