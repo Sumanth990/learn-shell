@@ -1,3 +1,2 @@
 ls
-pwd
-find
+curl google.com
