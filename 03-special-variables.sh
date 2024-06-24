@@ -6,3 +6,4 @@ echo print script name - $0
 echo Third argument - $3
 echo List all arguments - $*
 echo No. of arguments - $#
+
